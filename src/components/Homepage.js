@@ -1,14 +1,14 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import "../styles/homePage.css";
-import photo from "../images/vbg-cv-08.jpg";
-import circle from "../images/circle.jpg";
+import photo from "../images/campus.jpg";
+
 import circleAboutus from "../images/profile_pic.svg";
 import circleUsefulInformation from "../images/useful_photo.jpg";
 import circleFreshmen from "../images/freshmen.jpg";
-import circleLinks from "../images/turkey.jpg";
+import circleLinks from "../images/campus.jpg";
 
 const animatedTitle = {
   initial: {

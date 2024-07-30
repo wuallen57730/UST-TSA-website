@@ -1,12 +1,12 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { motion as m } from "framer-motion";
 import "animate.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import HKUST1 from "../images/1.svg";
-import HKUST2 from "../images/2.svg";
-import HKUST3 from "../images/3.svg";
-import HKUST4 from "../images/4.svg";
+import HKUST2 from "../images/2.jpg";
+import HKUST3 from "../images/3.jpg";
+import HKUST4 from "../images/4.jpg";
 
 import "swiper/css";
 import "swiper/css/effect-fade";

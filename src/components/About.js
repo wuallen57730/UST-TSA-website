@@ -6,7 +6,7 @@ import Cards from "../components/Cards";
 import Cards2 from "../components/Cards2";
 import Contact from "../components/Contact";
 
-import photo from "../images/turkey.jpg";
+import photo from "../images/campus.jpg";
 import aboutUs from "../images/profile_pic.svg";
 
 const mapStyle = {

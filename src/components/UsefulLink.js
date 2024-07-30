@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/usefullink.css";
-import photo from "../images/vbg-cv-08.jpg";
+import photo from "../images/campus.jpg";
 const UsefulLink = () => {
   useEffect(() => {
     window.scrollTo(0, 0);

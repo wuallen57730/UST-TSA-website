@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
-import { motion as m } from "framer-motion";
+import React, { useEffect } from "react";
+// import { Link } from "react-router-dom";
+// import { motion as m } from "framer-motion";
 import "../styles/freshmen.css";
 import Subfreshmen from "../components/SubFreshmen";
 import photo from "../images/freshmen.jpg";

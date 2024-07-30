@@ -6,7 +6,7 @@ import ig from "../icons/instagram2.svg";
 import fb from "../icons/facebook2.svg";
 import linkedin from "../icons/linkedin.svg";
 import mail from "../icons/mail.svg";
-import tsa from "../images/turkey.jpg";
+import tsa from "../images/campus.jpg";
 
 const SubContact = () => {
   return (

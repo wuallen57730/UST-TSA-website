@@ -1,32 +1,32 @@
 //Component in Useful Information
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { motion as m } from "framer-motion";
-import { useInView } from "framer-motion";
+
 import { Link } from "react-router-dom";
 import "../styles/life.css";
 
-import photo from "../images/HKUST3.svg";
+import photo from "../images/useful_photo.jpg";
 import shoppingPhoto from "../images/hong_kong_street.jpg";
 import trafficPhoto from "../images/system_map (1).svg";
 
-function Moving({ children }) {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+// function Moving({ children }) {
+//   const ref = useRef(null);
+//   const isInView = useInView(ref, { once: true });
 
-  return (
-    <section ref={ref}>
-      <span
-        style={{
-          transform: isInView ? "none" : "translateX(-200px)",
-          opacity: isInView ? 1 : 0,
-          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-        }}
-      >
-        {children}
-      </span>
-    </section>
-  );
-}
+//   return (
+//     <section ref={ref}>
+//       <span
+//         style={{
+//           transform: isInView ? "none" : "translateX(-200px)",
+//           opacity: isInView ? 1 : 0,
+//           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+//         }}
+//       >
+//         {children}
+//       </span>
+//     </section>
+//   );
+// }
 
 const Life = () => {
   useEffect(() => {
