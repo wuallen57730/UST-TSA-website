@@ -1,0 +1,17 @@
+div section.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  background-color: #e8e8e8;
+}
+div section.links ul {
+  list-style: none;
+}
+div section.links ul li {
+  font-size: 1.5rem;
+  padding: 5% 0;
+}
+div section.links ul h3 {
+  font-size: 2rem;
+}

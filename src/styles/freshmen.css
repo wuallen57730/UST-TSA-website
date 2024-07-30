@@ -1,0 +1,63 @@
+.academic,
+.arrive {
+  background-color: white;
+}
+.hall,
+.necessities {
+  background-color: #e8e8e8;
+}
+
+.anchors {
+  position: fixed;
+  top: 40vh;
+  background-color: transparent;
+  left: 0;
+  width: 20%;
+  padding: 10px;
+  z-index: 100;
+}
+section.anchors ul li {
+  /* list-style-image: url("../icons/icons8-housing-50.svg"); */
+  list-style-type: none;
+  height: 40px;
+}
+section.anchors ul li.iconAcademic:before {
+  content: "\1F4D1";
+}
+section.anchors ul li.iconHall:before {
+  content: "\1F3E0";
+}
+section.anchors ul li.iconArrive:before {
+  content: "\2708";
+}
+section.anchors ul li.iconNecessities:before {
+  content: "\2611";
+}
+section.anchors ul li a {
+  text-decoration: none;
+  color: black;
+}
+section.anchors ul li a:visited {
+  text-decoration: none;
+}
+section.anchors ul li a:hover {
+  color: #65798a;
+}
+div section.academic,
+div section.hall,
+div section.arrive,
+div section.necessities {
+  padding: 1rem 20%;
+}
+
+div section.academic h2,
+div section.hall h2,
+div section.arrive h2,
+div section.necessities h2 {
+  font-size: 2rem;
+  /* margin-top: 0; */
+}
+
+div section.hall img {
+  width: 70vw;
+}

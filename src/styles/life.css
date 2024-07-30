@@ -1,0 +1,34 @@
+section.lifeInHK {
+  padding: 1rem 20%;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.lifeInHK h2 {
+  font-size: 2rem;
+}
+section.life-academic,
+section.life-shopping,
+section.life-traffic {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+section.acdemicText h2,
+section.shoppingText h2,
+section.trafficText h2 {
+  font-size: 2rem;
+}
+section.acdemicPhoto,
+section.shoppingPhoto,
+section.trafficPhoto {
+  padding: 1.5rem;
+}
+section.acdemicPhoto img,
+section.shoppingPhoto img {
+  height: 350px;
+}
+section.trafficPhoto img {
+  height: 400px;
+}

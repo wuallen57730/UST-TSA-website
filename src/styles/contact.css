@@ -1,0 +1,32 @@
+.contact {
+  display: block;
+  background-color: #e8e6e6;
+  padding: 1rem 5%;
+}
+/* .contact .contact-us-text {
+  background-color: #e8e6e6;
+  z-index: 0;
+  padding: 1rem 0%;
+  text-align: left;
+}
+.contact .contact-us-text h2 {
+  font-size: 2rem;
+} */
+section.about-us-text p {
+  text-align: left;
+  font-size: 1.1rem;
+}
+.contact .social-part {
+  display: flex;
+}
+.contact .social-part .social-text {
+  /* background-color: #1b3663; */
+  /* background-color: white; */
+  background-color: #e8e6e6;
+}
+.contact .social-part .social-text p {
+  font-size: 1.1rem;
+}
+.contact .social-part .social-text .mission {
+  font-size: 2rem;
+}

@@ -1,0 +1,79 @@
+.about-us {
+  display: flex;
+  background-color: white;
+}
+
+section.about-us-text {
+  background-color: white;
+  z-index: 0;
+  padding: 1rem 5%;
+  text-align: left;
+}
+section.about-us-text h2 {
+  font-size: 2rem;
+}
+section.about-us-text p {
+  text-align: left;
+}
+.about-us-photo {
+  background-color: white;
+  padding: 2rem 5%;
+}
+.about-us-photo .aboutUsPhoto {
+  width: 250px;
+  max-height: inherit;
+}
+
+section.exco-intro {
+  display: block;
+  /* background-color: #e8e6e6; */
+  background-color: white;
+  padding: 1rem 5%;
+}
+section.exco-intro .exco-intro-text {
+  /* background-color: #e8e6e6; */
+  background-color: white;
+  z-index: 0;
+  padding: 1rem 0%;
+  text-align: left;
+}
+section.exco-intro .exco-intro-text h2 {
+  font-size: 2rem;
+}
+
+.empty-container {
+  min-height: 60vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty-container h3 {
+  font-size: 2rem;
+  color: white;
+}
+img.fixed-image {
+  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: -5;
+  bottom: 0;
+  left: 0;
+}
+.ust-map {
+  /* background-color: white; */
+  background-color: #e8e6e6;
+  padding: 2rem 5%;
+  text-align: center;
+}
+.ust-map h3 {
+  font-size: 2rem;
+}
+.ust-map p {
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+.ust-map iframe {
+  width: 100%;
+  height: 50vh;
+}

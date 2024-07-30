@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+.home-empty-container {
+  min-height: 85vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-empty-container h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+section.about-website {
+  background-color: white;
+  padding: 2rem 5%;
+}
+section.about-website h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-block-start: 0;
+}
+section.about-website p {
+  text-align: center;
+  margin-block-end: 0;
+  font-size: 1.5rem;
+}
+
+section.info-circles {
+  background-color: #e8e8e8;
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+}
+section.info-circles h3 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+section.info-circles div.circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.info-circles div.circles div.circle {
+  padding: 1rem 1rem;
+  flex: 0 1 185px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+section.info-circles div.circles div.circle p {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+section.info-circles div.circles div.circle a {
+  width: 122px;
+  height: 122px;
+}
+section.info-circles div.circles div.circle img {
+  object-fit: cover;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  transition: all 0.1s ease-in;
+  padding: 0.3rem;
+}
+section.info-circles div.circles div.circle img:hover {
+  border: 3px solid #1b3663;
+}

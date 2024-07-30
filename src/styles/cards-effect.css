@@ -1,0 +1,230 @@
+@media only screen and (max-width: 600px) {
+  .cards {
+    display: block;
+  }
+}
+.cards {
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+}
+
+.president,
+.ivp,
+.evp,
+.financial {
+  margin-top: 0 !important;
+  width: 400px;
+  margin: auto;
+  height: 400px;
+  position: relative;
+  transition: transform 4s ease-in-out;
+  overflow: hidden;
+  border: 4px solid #fff;
+}
+.president img,
+.ivp img,
+.evp img,
+.financial img {
+  width: 100%;
+  height: 400px;
+  transition: transform 1s ease-in;
+}
+.president img:hover,
+.ivp img:hover,
+.evp img:hover,
+.financial img:hover {
+  transform: scale(1.2);
+}
+.president:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "President";
+  transform: translateY(-100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.ivp:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Internal Vice President";
+  transform: translateY(-100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.evp:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "External Vice President";
+  transform: translateY(-100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.financial:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Financial Manager";
+  transform: translateY(-100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.president:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "President";
+  transform: translateY(100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.ivp:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Internal Vice President";
+  transform: translateY(100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.evp:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "External Vice President";
+  transform: translateY(100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.financial:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Financial Manager";
+  transform: translateY(100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.president:hover::before,
+.ivp:hover::before,
+.evp:hover::before,
+.financial:hover::before {
+  transform: translateY(0%);
+}
+.president:hover::after,
+.ivp:hover::after,
+.evp:hover::after,
+.financial:hover::after {
+  transform: translateY(0%);
+}

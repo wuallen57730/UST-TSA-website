@@ -1,0 +1,230 @@
+@media only screen and (max-width: 600px) {
+  .cards {
+    display: block;
+  }
+}
+.cards {
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  margin-top: 0 !important;
+  width: 400px;
+  margin: auto;
+  height: 400px;
+  position: relative;
+  transition: transform 4s ease-in-out;
+  overflow: hidden;
+  border: 4px solid #fff;
+}
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img {
+  width: 100%;
+  height: 400px;
+  transition: transform 1s ease-in;
+}
+.card1 img:hover,
+.card2 img:hover,
+.card3 img:hover,
+.card4 img:hover {
+  transform: scale(1.2);
+}
+.card1:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Publicity Manager";
+  transform: translateY(-100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card2:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Marketing Manager ";
+  transform: translateY(-100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card3:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "I.T. Manager";
+  transform: translateY(-100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card4:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "General Secretary";
+  transform: translateY(-100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.card1:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Publicity Manager";
+  transform: translateY(100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card2:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Marketing Manager ";
+  transform: translateY(100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card3:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "I.T. Manager";
+  transform: translateY(100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card4:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "General Secretary";
+  transform: translateY(100%);
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  background-color: rgba(188, 143, 143, 0.137);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  transition: transform 0.4s ease-in;
+  border: 4px solid white;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card1:hover::before,
+.card2:hover::before,
+.card3:hover::before,
+.card4:hover::before {
+  transform: translateY(0%);
+}
+.card1:hover::after,
+.card2:hover::after,
+.card3:hover::after,
+.card4:hover::after {
+  transform: translateY(0%);
+}
